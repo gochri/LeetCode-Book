@@ -4,11 +4,8 @@
  * @FilePath: \LeetCode-Book\javascript\sfo_03_find_duplicate_numbers_in_an_array_s2.js
  * 
  */
+
 // ===== Solution Code =====
-/**
- * @param {number[]} nums
- * @return {number}
- */
 var findRepeatNumber = function (nums) {
     let set = new Set()
     for (let num of nums) {
